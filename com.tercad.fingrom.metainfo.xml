@@ -5,8 +5,8 @@
   <lowercaseAppName>fingrom</lowercaseAppName>
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.0.1</tag>
-  <commit>ada3f4c9fad37f9508b1b0ef03a27d2dc7d032c4</commit>
+  <tag>v5.0.3</tag>
+  <commit>b0f61ee28a12cba2a56071b3dd5d2cffbce1e4f6</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -59,6 +59,7 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
+    <release version="5.0.3" date="2023-11-07"/>
     <release version="5.0.1" date="2023-11-05"/>
     <release version="5.0.0" date="2023-10-30"/>
   </releases>
