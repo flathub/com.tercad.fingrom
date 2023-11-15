@@ -5,8 +5,8 @@
   <lowercaseAppName>fingrom</lowercaseAppName>
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.1.1</tag>
-  <commit>290b117f93f92f11411a50c9d9f4b150584e51de</commit>
+  <tag>v5.1.2</tag>
+  <commit>6081344f5a979ca26eb428a94329024ce7a02d5b</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -62,16 +62,17 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.1.1" date="2023-11-10">
+    <release version="5.1.2" date="2023-11-14">
       <description translatable="no">
         <p>Release changes:</p>
         <ul>
-          <li>Critical issues: font cut on Tablet Galaxy, freeze on initial pages, revise of exchanges, bottom bar disposition</li>
-          <li>New functionality: widescreen adjustments, terms of use declaration</li>
+          <li>Minor fixes: totals recalculation on currency change, restate of budget categories</li>
+          <li>New functionality: highlight a card expiration, minified forms for portrait mode</li>
         </ul>
         <p>If you would like to come with suggestions, report bugs, translate the app, or contribute otherwise, feel free to reach out!</p>
       </description>
     </release>
+    <release version="5.1.1" date="2023-11-10"/>
     <release version="5.1.0" date="2023-11-09"/>
     <release version="5.0.3" date="2023-11-07"/>
     <release version="5.0.2" date="2023-11-06"/>
