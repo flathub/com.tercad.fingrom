@@ -5,8 +5,8 @@
   <lowercaseAppName>fingrom</lowercaseAppName>
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.1.2</tag>
-  <commit>6081344f5a979ca26eb428a94329024ce7a02d5b</commit>
+  <tag>v5.1.3</tag>
+  <commit>29ac9709c5e16319b663bf80bd694e485abd4f85</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -42,8 +42,7 @@
     </ul>
     <p>
         This is the "open-source code" application that welcomes and values contributions from the community. 
-        However, there are some limitations when it comes to making external modifications and distributions, 
-        as it follows the CC-BY-NC-ND-4.0 license. As the project's author, I am committed to upholding the 
+        However, it follows the CC-BY-NC-ND-4.0 license. As the project's author, I am committed to upholding the 
         "Terms of Use" and "Privacy Policy" to ensure the well-being and satisfaction of all users across 
         all platforms (desktop, mobile, and web).
     </p>
@@ -62,16 +61,18 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.1.2" date="2023-11-14">
+    <release version="5.1.3" date="2023-11-20">
       <description translatable="no">
         <p>Release changes:</p>
         <ul>
-          <li>Minor fixes: totals recalculation on currency change, restate of budget categories</li>
-          <li>New functionality: highlight a card expiration, minified forms for portrait mode</li>
+          <li>Critical fixes: fixed regression of historical data for an account analytics, buttons collisions (for nested keyboard)</li>
+          <li>Minor fixes: resolved focus corruption (as shown blink for multiple fields after autofocus event)</li>
+          <li>New functionality: contributors list (menu "About"), improved homepage in widescreen mode, enabled automated crashlist report</li>
         </ul>
         <p>If you would like to come with suggestions, report bugs, translate the app, or contribute otherwise, feel free to reach out!</p>
       </description>
     </release>
+    <release version="5.1.2" date="2023-11-14"/>
     <release version="5.1.1" date="2023-11-10"/>
     <release version="5.1.0" date="2023-11-09"/>
     <release version="5.0.3" date="2023-11-07"/>
