@@ -5,8 +5,9 @@
   <lowercaseAppName>fingrom</lowercaseAppName>
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.1.3</tag>
-  <commit>29ac9709c5e16319b663bf80bd694e485abd4f85</commit>
+  <developer_name>lyskouski</developer_name>
+  <tag>v5.1.4</tag>
+  <commit>9c01f8a4d13172a19c3fda7b8309f2ef4920656d</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -15,7 +16,9 @@
     <control>keyboard</control>
     <control>touch</control>
   </recommends>
-  <developer_name>lyskouski</developer_name>
+  <categories>
+    <category>Finances</category>
+  </categories>
   <url type="homepage">https://github.com/lyskouski/app-finance</url>
   <url type="bugtracker">https://github.com/lyskouski/app-finance/issues</url>
   <url type="translate">https://github.com/lyskouski/app-finance/tree/main/lib/l10n</url>
@@ -36,7 +39,7 @@
         <li>Recovery via WebDav or a direct File</li>
         <li>Import from CSV, QIF, OFX files for Bills and Invoices</li>
         <li>Data encryption</li>
-        <li>Localization: EN, BE, PL, PT, FR, DE, UK</li>
+        <li>Localizations: EN, BE, PL, PT, FR, DE, UK, ZH</li>
         <li>Responsive and Adaptive Design</li>
         <li>Shortcuts</li>
     </ul>
@@ -61,17 +64,17 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.1.3" date="2023-11-20">
+    <release version="5.1.4" date="2023-11-21">
       <description translatable="no">
         <p>Release changes:</p>
         <ul>
-          <li>Critical fixes: fixed regression of historical data for an account analytics, buttons collisions (for nested keyboard)</li>
-          <li>Minor fixes: resolved focus corruption (as shown blink for multiple fields after autofocus event)</li>
-          <li>New functionality: contributors list (menu "About"), improved homepage in widescreen mode, enabled automated crashlist report</li>
+          <li>Critical fixes: fixed after SDK upgrade (null check operator used on a null value)</li>
+          <li>New functionality: Chinese localization</li>
         </ul>
         <p>If you would like to come with suggestions, report bugs, translate the app, or contribute otherwise, feel free to reach out!</p>
       </description>
     </release>
+    <release version="5.1.3" date="2023-11-20"/>
     <release version="5.1.2" date="2023-11-14"/>
     <release version="5.1.1" date="2023-11-10"/>
     <release version="5.1.0" date="2023-11-09"/>
