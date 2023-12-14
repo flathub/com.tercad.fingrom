@@ -6,8 +6,8 @@
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <developer_name>lyskouski</developer_name>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.1.5</tag>
-  <commit>1e6345205f821d480c09bc32ea1b892e18c82346</commit>
+  <tag>v5.1.6</tag>
+  <commit>dde6a95f4f7b88fa82f8adfa7909ebd0365b43db</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -43,9 +43,11 @@
         <li>Responsive and Adaptive Design</li>
         <li>Shortcuts</li>
     </ul>
+    <p>If you would like to come with suggestions, report bugs, translate the app, or contribute otherwise, feel free to reach out!</p>
     <p>
         This is the "open-source code" application that welcomes and values contributions from the community. 
-        However, it follows the CC-BY-NC-ND-4.0 license. As the project's author, I am committed to upholding the 
+        However, there are some limitations when it comes to making external modifications and distributions, 
+        as it follows the CC-BY-NC-ND-4.0 license. As the project's author, I am committed to upholding the 
         "Terms of Use" and "Privacy Policy" to ensure the well-being and satisfaction of all users across 
         all platforms (desktop, mobile, and web).
     </p>
@@ -64,16 +66,16 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.1.5" date="2023-11-22">
+    <release version="5.1.6" date="2023-12-14">
       <description translatable="no">
         <p>Release changes:</p>
         <ul>
-          <li>Critical fixes: fixed after SDK upgrade (null check operator used on a null value)</li>
-          <li>New functionality: Chinese localization</li>
+          <li>Critical fixes: fixed after SDK upgrade (selector freeze)</li>
+          <li>New functionality: selectors popup view</li>
         </ul>
-        <p>If you would like to come with suggestions, report bugs, translate the app, or contribute otherwise, feel free to reach out!</p>
       </description>
     </release>
+    <release version="5.1.5" date="2023-11-22"/>
     <release version="5.1.4" date="2023-11-21"/>
     <release version="5.1.3" date="2023-11-20"/>
     <release version="5.1.2" date="2023-11-14"/>
