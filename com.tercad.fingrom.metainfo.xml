@@ -6,8 +6,8 @@
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <developer_name>lyskouski</developer_name>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.1.7</tag>
-  <commit>a158dd97deca86c68d31654ccc45a93f155a2d9d</commit>
+  <tag>v5.2.2</tag>
+  <commit>3bddced1dc74aaaaa346fd2e3dd79c32dd2e06ce</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -39,7 +39,7 @@
         <li>Recovery via WebDav or a direct File</li>
         <li>Import from CSV, QIF, OFX files for Bills and Invoices</li>
         <li>Data encryption</li>
-        <li>Localizations: EN, BE, PL, PT, FR, DE, UK, ZH</li>
+        <li>Localizations: EN, BE, PL, PT, FR, DE, UK, ZH, HI</li>
         <li>Responsive and Adaptive Design</li>
         <li>Shortcuts</li>
     </ul>
@@ -66,15 +66,15 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.1.7" date="2023-12-18">
+    <release version="5.2.2" date="2023-12-21">
       <description translatable="no">
         <p>Release changes:</p>
         <ul>
-          <li>Critical fixes: fixed after SDK upgrade (selector freeze)</li>
-          <li>New functionality: forms improvement</li>
+          <li>Critical fixes: fixed selectors' focus loss</li>
         </ul>
       </description>
     </release>
+    <release version="5.1.7" date="2023-12-18"/>
     <release version="5.1.6" date="2023-12-14"/>
     <release version="5.1.5" date="2023-11-22"/>
     <release version="5.1.4" date="2023-11-21"/>
