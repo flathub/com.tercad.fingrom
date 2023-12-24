@@ -11,6 +11,7 @@ finish-args:
   - --share=network
   - --share=ipc
   - --device=dri
+  - --filesystem=xdg-documents
 modules:
   - name: zenity
     buildsystem: meson
@@ -35,7 +36,7 @@ modules:
       - install -Dm644 com.tercad.fingrom.metainfo.xml /app/share/appdata/com.tercad.fingrom.metainfo.xml
     sources:
       - type: file
-        url: https://github.com/lyskouski/app-finance/releases/download/v5.2.4/fingrom_Linux.tar.gz
-        sha256: "3a7e3598199530a68c1e348c799822201cc815870f0553be44294dd3abc8d1f4"
+        url: https://github.com/lyskouski/app-finance/releases/download/v5.2.5/fingrom_Linux.tar.gz
+        sha256: "736acc3a93aeaf063f7a05f753849c35891f70d37704129366f448ba99b906cf"
       - type: file
         path: com.tercad.fingrom.metainfo.xml
