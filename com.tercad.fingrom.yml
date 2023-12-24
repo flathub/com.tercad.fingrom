@@ -11,7 +11,7 @@ finish-args:
   - --share=network
   - --share=ipc
   - --device=dri
-  - --filesystem=xdg-documents
+  - --filesystem=xdg-documents/.terCAD:create
 modules:
   - name: zenity
     buildsystem: meson
@@ -31,12 +31,14 @@ modules:
       - chmod +x /app/Fingrom/fingrom
       - mkdir -p /app/bin
       - ln -s /app/Fingrom/fingrom /app/bin/fingrom
+      - export XDG_DATA_HOME="/var/lib/flatpak/exports/share:$XDG_DATA_HOME" 
+      - export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:$XDG_DATA_DIRS" 
       - install -Dm644 /app/Fingrom/com.tercad.fingrom.svg /app/share/icons/hicolor/scalable/apps/com.tercad.fingrom.svg
       - install -Dm644 /app/Fingrom/com.tercad.fingrom.desktop /app/share/applications/com.tercad.fingrom.desktop
       - install -Dm644 com.tercad.fingrom.metainfo.xml /app/share/appdata/com.tercad.fingrom.metainfo.xml
     sources:
       - type: file
-        url: https://github.com/lyskouski/app-finance/releases/download/v5.2.5/fingrom_Linux.tar.gz
-        sha256: "736acc3a93aeaf063f7a05f753849c35891f70d37704129366f448ba99b906cf"
+        url: https://github.com/lyskouski/app-finance/releases/download/v5.2.6/fingrom_Linux.tar.gz
+        sha256: "ed0590f4f910930f5f71c72e7a28662faed78401341db0abab61bbe20381adaa"
       - type: file
         path: com.tercad.fingrom.metainfo.xml

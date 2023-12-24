@@ -6,8 +6,8 @@
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <developer_name>lyskouski</developer_name>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.2.5</tag>
-  <commit>3de3ba4a19da9d057f424b307bdc7d12190d2a99</commit>
+  <tag>v5.2.6</tag>
+  <commit>067e2a4af13d45a12b1cab8219399cc82a684510</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -17,6 +17,7 @@
     <control>touch</control>
   </recommends>
   <categories>
+    <category>Office</category>
     <category>Finances</category>
   </categories>
   <url type="homepage">https://github.com/lyskouski/app-finance</url>
@@ -43,7 +44,10 @@
         <li>Responsive and Adaptive Design</li>
         <li>Shortcuts</li>
     </ul>
-    <p>If you would like to come with suggestions, report bugs, translate the app, or contribute otherwise, feel free to reach out!</p>
+    <p>
+      If you would like to come with suggestions, report bugs, translate the app, or contribute otherwise, 
+      feel free to reach out!
+    </p>
     <p>
         This is the "open-source code" application that welcomes and values contributions from the community. 
         However, there are some limitations when it comes to making external modifications and distributions, 
@@ -66,14 +70,15 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.2.5" date="2023-12-24">
+    <release version="5.2.6" date="2023-12-24">
       <description translatable="no">
         <p>Release changes:</p>
         <ul>
-          <li>Critical change: resolve temporal folder for flathub package</li>
+          <li>Critical fix: resolve file storage for flathub</li>
         </ul>
       </description>
     </release>
+    <release version="5.2.5" date="2023-12-24"/>
     <release version="5.2.4" date="2023-12-23"/>
     <release version="5.2.3" date="2023-12-22"/>
     <release version="5.2.2" date="2023-12-21"/>
