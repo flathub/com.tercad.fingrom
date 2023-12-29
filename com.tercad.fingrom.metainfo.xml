@@ -6,8 +6,8 @@
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <developer_name>lyskouski</developer_name>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.3.0</tag>
-  <commit>89c5905c1eac8ec0ae127d78d3daeec9e0207756</commit>
+  <tag>v5.3.1</tag>
+  <commit>c311f83a56d3801505b5d615706a2f644554c8cb</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -70,7 +70,7 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.3.0" date="2023-12-29">
+    <release version="5.3.1" date="2023-12-29">
       <description translatable="no">
         <p>Release changes:</p>
         <ul>
