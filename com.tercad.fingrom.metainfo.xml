@@ -6,8 +6,8 @@
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <developer_name>lyskouski</developer_name>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.3.1</tag>
-  <commit>c311f83a56d3801505b5d615706a2f644554c8cb</commit>
+  <tag>v5.3.2</tag>
+  <commit>0c8e8e8d9546aa7b0e98d29e0301ad3c8d971780</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -70,11 +70,11 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.3.1" date="2023-12-29">
+    <release version="5.3.2" date="2023-12-31">
       <description translatable="no">
         <p>Release changes:</p>
         <ul>
-          <li>New features: added Persian localization with a design mode "right-to-left"</li>
+          <li>Critical fix: resolve default currency state to fix currency exchange loss</li>
         </ul>
       </description>
     </release>
