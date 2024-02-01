@@ -6,8 +6,8 @@
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <developer_name>lyskouski</developer_name>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.3.4</tag>
-  <commit>e3481dced16c6c0a96559b63d2dcc3b3487dc1a7</commit>
+  <tag>v5.3.5</tag>
+  <commit>d6f9924de8c90f260084892db66af9ed3844b933</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -70,11 +70,11 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.3.4" date="2024-01-30">
+    <release version="5.3.5" date="2024-02-01">
       <description translatable="no">
         <p>Release changes:</p>
         <ul>
-          <li>Minor fixes: improved buttons styles, excluded deleted bills/invoices from accounts history log.</li>
+          <li>Critical issue: fixed an initial phase for items with values without fractional parts</li>
         </ul>
       </description>
     </release>
