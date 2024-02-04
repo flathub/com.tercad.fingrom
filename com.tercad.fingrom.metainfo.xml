@@ -6,8 +6,8 @@
   <githubReleaseOrganization>lyskouski</githubReleaseOrganization>
   <developer_name>lyskouski</developer_name>
   <githubReleaseProject>app-finance</githubReleaseProject>
-  <tag>v5.3.6</tag>
-  <commit>5463239a0152443829f289d6edbb2863699f568e</commit>
+  <tag>v5.3.7</tag>
+  <commit>ff639f9ac56417b0a77c0cc83dba3849f6bfd881</commit>
   <summary>Platform-agnostic financial accounting application</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>CC-BY-NC-ND-4.0</project_license>
@@ -70,10 +70,10 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.3.6" date="2024-02-03">
+    <release version="5.3.7" date="2024-02-04">
       <description translatable="no">
         <ul>
-          <li>Critical issue: fixed an initial phase to restore invoices</li>
+          <li>New feature: adding "clean-up"-option for a restoring procedure</li>
         </ul>
       </description>
     </release>
