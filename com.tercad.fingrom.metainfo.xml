@@ -86,12 +86,11 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.5.0" date="2024-06-09">
+    <release version="5.5.1" date="2024-07-02">
       <description translatable="no">
-        <p>Release changes:</p>
         <ul>
-          <li>Improving self-configured board by adding charts</li>
-          <li>Adding Arabic (AR) and Azerbaijan (AZ) languages</li>
+          <li>Fixing recovery from a .log-file for Android</li>
+          <li>Adding Japanese (JA) and Spanish (ES) languages</li>
         </ul>
       </description>
     </release>
