@@ -86,12 +86,10 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.6.0" date="2024-09-15">
+    <release version="5.6.1" date="2024-09-25">
       <description translatable="no">
         <ul>
-          <li>Enhancing introductory pages</li>
-          <li>Introducing Accounts and Budgets Summary tab</li>
-          <li>Adding Italian (IT) and Turkish (TR) languages</li>
+          <li>Remedying text orientation for right-to-left oriented localizations</li>
         </ul>
       </description>
     </release>
