@@ -34,7 +34,7 @@
         <li>Recovery via WebDav or a direct File</li>
         <li>Import from CSV, QIF, OFX files for Bills and Invoices</li>
         <li>Data encryption</li>
-        <li>Localizations: EN, BE, PL, PT, FR, DE, UK, ZH, HI, UZ, FA, AR, AZ, JA, ES, IT, TR</li>
+        <li>Localizations: EN, BE, PL, PT, FR, DE, UK, ZH, HI, UZ, FA, AR, AZ, JA, ES, IT, TR, KO, NL</li>
         <li>Responsive and Adaptive Design</li>
         <li>Shortcuts</li>
     </ul>
@@ -86,10 +86,11 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.6.2" date="2024-09-26">
+    <release version="5.7.0" date="2024-10-10">
       <description translatable="no">
         <ul>
-          <li>Fixing Accounts and Budgets Summary tabs calculations</li>
+          <li>Improving storage for Web-version</li>
+          <li>Adding Dutch (NL) and Korean (KO) languages</li>
         </ul>
       </description>
     </release>
