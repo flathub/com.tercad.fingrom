@@ -28,6 +28,7 @@
         <li>Budget Categories</li>
         <li>Bills, Transfers, Incomes (Invoices)</li>
         <li>Goals Definition</li>
+        <li>Recurring Payments</li>
         <li>Exchange rates</li>
         <li>Metrics</li>
         <li>Synchronization between devices (P2P) </li>
@@ -87,12 +88,11 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.8.0" date="2024-11-13">
+    <release version="5.9.0" date="2024-11-28">
       <description translatable="no">
         <ul>
-          <li>Export to Excel `XLSX` file</li>
-          <li>Different timeline: weekly, monthly, yearly</li>
-          <li>Customizable start day of the week and month</li>
+          <li>Adding Recurring Payments</li>
+          <li>Improving OFX import</li>
         </ul>
       </description>
     </release>
