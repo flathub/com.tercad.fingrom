@@ -28,8 +28,8 @@
         <li>Budget Categories</li>
         <li>Bills, Transfers, Incomes (Invoices)</li>
         <li>Goals Definition</li>
-        <li>Recurring Payments</li>
         <li>Exchange rates</li>
+        <li>Recurring Payments</li>
         <li>Metrics</li>
         <li>Synchronization between devices (P2P) </li>
         <li>Recovery via WebDav or a direct File</li>
@@ -88,7 +88,7 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.9.0" date="2024-11-28">
+    <release version="5.9.1" date="2024-11-28">
       <description translatable="no">
         <ul>
           <li>Adding Recurring Payments</li>
