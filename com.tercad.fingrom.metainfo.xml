@@ -88,7 +88,7 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.9.1" date="2024-11-28">
+    <release version="5.9.2" date="2024-11-29">
       <description translatable="no">
         <ul>
           <li>Adding Recurring Payments</li>
