@@ -88,11 +88,10 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="5.9.2" date="2024-11-29">
+    <release version="6.0.0" date="2024-12-05">
       <description translatable="no">
         <ul>
-          <li>Adding Recurring Payments</li>
-          <li>Improving OFX import</li>
+          <li>Improving relative budgets</li>
         </ul>
       </description>
     </release>
