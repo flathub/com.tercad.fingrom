@@ -88,10 +88,10 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="6.0.0" date="2024-12-05">
+    <release version="6.0.1" date="2024-12-10">
       <description translatable="no">
         <ul>
-          <li>Improving relative budgets</li>
+          <li>Allowing exchanges for currencies below decimal fractions</li>
         </ul>
       </description>
     </release>
