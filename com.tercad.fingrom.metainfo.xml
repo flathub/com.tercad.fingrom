@@ -88,7 +88,7 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="6.0.1" date="2024-12-10">
+    <release version="6.0.2" date="2024-12-10">
       <description translatable="no">
         <ul>
           <li>Allowing exchanges for currencies below decimal fractions</li>
