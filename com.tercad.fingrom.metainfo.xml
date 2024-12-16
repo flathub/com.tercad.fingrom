@@ -88,10 +88,10 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="6.0.3" date="2024-12-13">
+    <release version="6.0.4" date="2024-12-16">
       <description translatable="no">
         <ul>
-          <li>Changing the navigation when adding items (to the previous page instead of home)</li>
+          <li>Improving exchange rates forms</li>
         </ul>
       </description>
     </release>
