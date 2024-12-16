@@ -39,6 +39,6 @@ modules:
     sources:
       - type: file
         url: https://github.com/lyskouski/app-finance/releases/download/v6.0.4/fingrom_Linux.tar.gz
-        sha256: "8fd9cb46e14c2b7d94a92ce35de4e973ed0a1e3e2cd33442c646f0008a9bffcd"
+        sha256: "5dfb103a30d6a7a8fb11f80f045dd68ae2f6f6d1f41e54d4e27af76924cf82e9"
       - type: file
         path: com.tercad.fingrom.metainfo.xml
