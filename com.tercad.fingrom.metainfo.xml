@@ -36,7 +36,7 @@
         <li>Import from CSV, QIF, OFX files for Bills and Invoices</li>
         <li>Export to Excel (XLSX) file</li>
         <li>Data encryption</li>
-        <li>Localizations: EN, BE, PL, PT, FR, DE, UK, ZH, HI, UZ, FA, AR, AZ, JA, ES, IT, TR, KO, NL</li>
+        <li>Localizations: EN, BE, PL, PT, FR, DE, UK, ZH, HI, UZ, FA, AR, AZ, JA, ES, IT, TR, KO, NL, CS, RO</li>
         <li>Responsive and Adaptive Design</li>
         <li>Shortcuts</li>
     </ul>
@@ -88,10 +88,10 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="6.0.4" date="2024-12-16">
+    <release version="6.1.0" date="2024-12-23">
       <description translatable="no">
         <ul>
-          <li>Improving exchange rates forms</li>
+          <li>Adding Czech (CS) and Romanian (RO) languages</li>
         </ul>
       </description>
     </release>
