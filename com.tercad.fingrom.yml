@@ -38,7 +38,7 @@ modules:
       - install -Dm644 com.tercad.fingrom.metainfo.xml /app/share/appdata/com.tercad.fingrom.metainfo.xml
     sources:
       - type: file
-        url: https://github.com/lyskouski/app-finance/releases/download/v6.1.0/fingrom_Linux.tar.gz
-        sha256: "46289e96e5bab8f4ab5576fbb00b528d2a0290f1c8e76dd2a62bc0d4c202667e"
+        url: https://github.com/lyskouski/app-finance/releases/download/v6.1.1/fingrom_Linux.tar.gz
+        sha256: "a71fbb625e1e76abbe3ea9e36f46f819fd2b2e6a3486bff61dc5403209f4ce40"
       - type: file
         path: com.tercad.fingrom.metainfo.xml
