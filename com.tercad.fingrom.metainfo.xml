@@ -88,10 +88,10 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="6.1.1" date="2024-12-24">
+    <release version="6.2.0" date="2025-01-08">
       <description translatable="no">
         <ul>
-          <li>Adding Czech (CS) and Romanian (RO) languages</li>
+          <li>Extending recurring payments by user interval</li>
         </ul>
       </description>
     </release>
