@@ -88,10 +88,10 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="6.2.0" date="2025-01-08">
+    <release version="6.3.0" date="2025-02-24">
       <description translatable="no">
         <ul>
-          <li>Extending recurring payments by user interval</li>
+          <li>Adding Income and Transaction pages</li>
         </ul>
       </description>
     </release>
