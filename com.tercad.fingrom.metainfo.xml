@@ -87,10 +87,10 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="6.3.0" date="2025-02-24">
+    <release version="6.4.2" date="2025-08-21">
       <description translatable="no">
         <ul>
-          <li>Adding Income and Transaction pages</li>
+          <li>Adding filters for Bills, Invoices, and Transfers pages</li>
         </ul>
       </description>
     </release>
