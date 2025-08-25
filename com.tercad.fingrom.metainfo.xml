@@ -87,7 +87,7 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="6.4.2" date="2025-08-21">
+    <release version="6.4.3" date="2025-08-25">
       <description translatable="no">
         <ul>
           <li>Adding filters for Bills, Invoices, and Transfers pages</li>
