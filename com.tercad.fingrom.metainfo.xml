@@ -87,10 +87,10 @@
   </screenshots>
   <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
   <releases>
-    <release version="6.4.5" date="2025-10-02">
+    <release version="6.5.0" date="2025-10-14">
       <description translatable="no">
         <ul>
-          <li>Extending filters for Bills, Invoices, and Transfers pages</li>
+          <li>Introducing Budget Category assumption / prediction for Bills</li>
         </ul>
       </description>
     </release>
