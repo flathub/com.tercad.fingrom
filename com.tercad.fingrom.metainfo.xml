@@ -108,11 +108,10 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="6.7.0" date="2026-03-02">
+    <release version="7.0.0" date="2026-03-10">
       <description translatable="no">
         <ul>
-          <li>Budget/Account sorting by name, date, and amount</li>
-          <li>Budget - Summary: clickable options to check Bills in an interval</li>
+          <li>Adding Summary widget for Wide screens</li>
         </ul>
       </description>
     </release>
