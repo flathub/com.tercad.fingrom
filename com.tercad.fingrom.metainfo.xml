@@ -108,10 +108,10 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="7.0.0" date="2026-03-10">
+    <release version="7.0.2" date="2026-03-17">
       <description translatable="no">
         <ul>
-          <li>Adding Summary widget for Wide screens</li>
+          <li>Improved Home page for both large and small screens</li>
         </ul>
       </description>
     </release>
