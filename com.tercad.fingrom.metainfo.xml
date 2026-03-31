@@ -108,10 +108,12 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="7.0.2" date="2026-03-17">
+    <release version="7.0.3" date="2026-03-31">
       <description translatable="no">
         <ul>
           <li>Improved Home page for both large and small screens</li>
+          <li>Added Saturday as an option in "Start of Week" day</li>
+          <li>Added currencies: Sudanese pound (SDG), Iraqi Dinar (IQD), Lebanese pound (LBP), Libyan Dinar (LYD), Iranian Rial (IRR)</li>
         </ul>
       </description>
     </release>
