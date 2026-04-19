@@ -58,7 +58,7 @@
         <li>Export to Excel (XLSX) file</li>
         <li>Data encryption</li>
         <li>Localizations: EN, BE, PL, PT, FR, DE, UK, ZH, HI, UZ, FA, AR, AZ, JA, ES, IT, TR, KO, NL, CS, RO</li>
-        <li>Security: password protection</li>
+        <li>Security: password protection, one-time password, biometrics</li>
         <li>Responsive and Adaptive Design</li>
         <li>Shortcuts</li>
     </ul>
@@ -108,12 +108,12 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="7.0.3" date="2026-03-31">
+    <release version="7.1.0" date="2026-04-19">
       <description translatable="no">
         <ul>
-          <li>Improved Home page for both large and small screens</li>
-          <li>Added Saturday as an option in "Start of Week" day</li>
-          <li>Added currencies: Sudanese pound (SDG), Iraqi Dinar (IQD), Lebanese pound (LBP), Libyan Dinar (LYD), Iranian Rial (IRR)</li>
+          <li>Biometric Authentication</li>
+          <li>Split a Bill</li>
+          <li>Budget Summary: option to ignore negative values</li>
         </ul>
       </description>
     </release>
