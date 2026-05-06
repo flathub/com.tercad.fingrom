@@ -108,12 +108,11 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="7.1.0" date="2026-04-19">
+    <release version="7.1.1" date="2026-05-06">
       <description translatable="no">
         <ul>
-          <li>Biometric Authentication</li>
-          <li>Split a Bill</li>
-          <li>Budget Summary: option to ignore negative values</li>
+          <li>Added 36 missing currencies</li>
+          <li>Fixed split form</li>
         </ul>
       </description>
     </release>
