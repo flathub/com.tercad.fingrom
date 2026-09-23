@@ -108,10 +108,10 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="7.2.5" date="2026-08-27">
+    <release version="7.2.11" date="2026-09-22">
       <description translatable="no">
         <ul>
-          <li>Adding Georgian (KA) and Russian (RU) languages</li>
+          <li>Several improvements have been made to stabilize the app (a number of bugs have been fixed)</li>
         </ul>
       </description>
     </release>
