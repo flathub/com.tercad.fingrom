@@ -108,10 +108,11 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="7.3.0" date="2026-10-07">
+    <release version="7.3.2" date="2026-11-01">
       <description translatable="no">
         <ul>
           <li>Several improvements have been made to stabilize the app (a number of bugs have been fixed)</li>
+          <li>Added Transaction Manager</li>
         </ul>
       </description>
     </release>
