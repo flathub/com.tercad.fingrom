@@ -108,11 +108,15 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="7.3.2" date="2026-11-01">
+    <release version="8.0.0" date="2026-11-17">
       <description translatable="no">
         <ul>
-          <li>Several improvements have been made to stabilize the app (a number of bugs have been fixed)</li>
-          <li>Added Transaction Manager</li>
+          <li>Introducing the Integrations page with expandable sections</li>
+          <li>Adding Financial Transaction Services (FinTS 4.1): accounts, balances, and import of transactions from German banks</li>
+          <li>Adding SimpleFIN Bridge (US): accounts, balances, and import of transactions from US banks and card issuers</li>
+          <li>Adding Enable Banking (EU): accounts, balances, and import of transactions from European banks (PSD2)</li>
+          <li>Adding import of bank statement files (`MT940`, `camt.053`), e.g. exported by Polish banks</li>
+          <li>Fixing conversion rate precision</li>
         </ul>
       </description>
     </release>
