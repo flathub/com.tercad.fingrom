@@ -26,6 +26,8 @@
     <keyword>Invoices</keyword>
     <keyword>Payments</keyword>
     <keyword>Exchange rates</keyword>
+    <keyword>Banking</keyword>
+    <keyword>Import</keyword>
   </keywords>
   <url type="homepage">https://github.com/lyskouski/app-finance</url>
   <url type="bugtracker">https://github.com/lyskouski/app-finance/issues</url>
@@ -46,18 +48,20 @@
     <p>Features</p>
     <ul>
         <li>Accounting</li>
-        <li>Budget Categories</li>
-        <li>Bills, Transfers, Incomes (Invoices)</li>
+        <li>Budget Categories with weekly, monthly, and yearly timelines</li>
+        <li>Bills, Transfers, Incomes (Invoices), Split a Bill</li>
+        <li>Budget Category prediction for Bills and imported transactions</li>
         <li>Goals Definition</li>
         <li>Exchange rates</li>
         <li>Recurring Payments</li>
-        <li>Metrics</li>
-        <li>Synchronization between devices (P2P) </li>
+        <li>Metrics: forecast (Monte Carlo simulation), candlestick (OHLC) chart, income health radar, bar race</li>
+        <li>Synchronization between devices (P2P)</li>
         <li>Recovery via WebDav or a direct File</li>
-        <li>Import from CSV, QIF, OFX files for Bills and Invoices</li>
+        <li>Import from CSV, QIF, OFX, MT940, camt.053 files for Bills and Invoices</li>
+        <li>Bank integrations: FinTS 4.1 (German banks), SimpleFIN Bridge (US), Enable Banking (EU, PSD2), Wise API (Global)</li>
         <li>Export to Excel (XLSX) file</li>
         <li>Data encryption</li>
-        <li>Localizations: EN, BE, PL, PT, FR, DE, UK, ZH, HI, UZ, FA, AR, AZ, JA, ES, IT, TR, KO, NL, CS, RO, KA, RU, ID</li>
+        <li>Localizations: EN, BE, PL, PT, FR, DE, UK, ZH, HI, UZ, FA, AR, AZ, JA, ES, IT, TR, KO, NL, CS, RO, KA, RU, ID, PT-BR, ZH-TW</li>
         <li>Security: password protection, one-time password, biometrics</li>
         <li>Responsive and Adaptive Design</li>
         <li>Shortcuts</li>
@@ -108,15 +112,17 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="8.0.0" date="2026-11-17">
+    <release version="8.5.0" date="2026-11-25">
       <description translatable="no">
         <ul>
-          <li>Introducing the Integrations page with expandable sections</li>
-          <li>Adding Financial Transaction Services (FinTS 4.1): accounts, balances, and import of transactions from German banks</li>
-          <li>Adding SimpleFIN Bridge (US): accounts, balances, and import of transactions from US banks and card issuers</li>
-          <li>Adding Enable Banking (EU): accounts, balances, and import of transactions from European banks (PSD2)</li>
-          <li>Adding import of bank statement files (`MT940`, `camt.053`), e.g. exported by Polish banks</li>
-          <li>Fixing conversion rate precision</li>
+          <li>
+            Adding Teller (US), Investec Programmable Banking (South Africa), Monzo Developer API (United Kingdom), 
+            Starling Bank Personal Access (United Kingdom), Akahu Personal App (New Zealand), Up Banking API (Australia), Wise (Global), 
+            PrivatBank Autoclient (Ukraine), Monobank Personal API (Ukraine): 
+            balances and import of transactions of cards, creation of linked accounts
+          </li>
+          <li>Adding Notifications Parser (Android): transactions from notifications of banking and payment apps, recognized automatically or by a custom pattern</li>
+          <li>Predicting Budget Category for imported Bills without a category in the file</li>
         </ul>
       </description>
     </release>
